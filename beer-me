@@ -36,7 +36,7 @@ while [ $# -gt 0 ]; do
             shift # past value
             ;;
         --?*)
-            echo "beer-me: unreconized option $1"
+            echo "beer-me: unrecognized option $1"
             echo "$USAGE"
             exit 1
             ;;
